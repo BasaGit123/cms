@@ -1,0 +1,19 @@
+# Запрет прямого доступа к файлам конфигурации и директориям
+<FilesMatch "\.(json|txt)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Включение RewriteEngine
+RewriteEngine On
+RewriteBase /
+
+# Перенаправление всех запросов, не соответствующих файлам или папкам, на index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]
+
+php_value session.cookie_httponly 1
+php_value session.cookie_secure 1
+php_value session.cookie_samesite "Strict"
+php_value session.gc_maxlifetime 1440
