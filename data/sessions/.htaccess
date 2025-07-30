@@ -1,0 +1,3 @@
+# Запрет прямого доступа к файлам сессий
+Order Allow,Deny
+Deny from all
