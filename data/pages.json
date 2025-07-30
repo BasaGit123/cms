@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Моя Первая страница",
+        "content": "Контент моя первая страница",
+        "url": "about-us",
+        "seo_title": "SEO Заголовок Моя Первая страница",
+        "seo_description": "SEO Описание Моя Первая страница",
+        "indexable": true
+    },
+    {
+        "id": 2,
+        "title": "Вторая страница",
+        "content": "Это моя вторая страница",
+        "url": "vtoray",
+        "seo_title": "SEO Заголовок Вторая страница",
+        "seo_description": "SEO Описание  Вторая страница",
+        "indexable": true
+    }
+]

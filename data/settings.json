@@ -1,0 +1,8 @@
+{
+    "site_name": "Моя CMS",
+    "site_title": "Главная страница | Моя CMS",
+    "site_description": "Добро пожаловать на главную страницу нашей CMS.",
+    "max_attempts": 3,
+    "block_duration": 60,
+    "admin_email": "teterinvasa@yandex.ru"
+}
